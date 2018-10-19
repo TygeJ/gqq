@@ -1,3 +1,5 @@
+// Queries
+
 ENDPOINT (post)
 
 `https://platform.podium.com/graphql`
@@ -81,7 +83,7 @@ vars
   "settings": {"name": "Tyge Test"}
 }
 
-(if creating through above query, must use `whiteList` query first, or circumvent by creating in admin) 
+(if creating through above query, must use `whiteList` query first, or circumvent by creating in admin)
 
 WHITELIST
 
